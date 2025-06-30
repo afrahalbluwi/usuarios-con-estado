@@ -1,0 +1,61 @@
+.user-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 16px;
+    margin: 12px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+  }
+  
+  .user-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .user-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-info h2 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .user-info p {
+    margin: 4px 0;
+    color: gray;
+  }
+  
+  .status {
+    font-weight: bold;
+    margin-right: 12px;
+  }
+  
+  .status.active {
+    color: green;
+  }
+  
+  .status.inactive {
+    color: red;
+  }
+  
+  .details-button {
+    padding: 8px 12px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .details-button:hover {
+    background-color: #f2f2f2;
+  }
+  
